@@ -31,6 +31,7 @@ class Song
     @@artists.each do |artist|
       list << artist unless list.include?(artist)
     end
+    list
   end
 
 end
