@@ -40,7 +40,7 @@ class Song
       genre_hash[genre] = 0 unless genre_hash.keys.include?(genre)
         genre_hash[genre] += 1
       end
-    end
+    
     genre_hash
   end
 
